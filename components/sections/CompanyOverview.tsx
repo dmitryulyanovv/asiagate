@@ -26,11 +26,12 @@ export default function CompanyOverview() {
             className="relative order-2 h-[420px] overflow-hidden rounded-3xl border border-white/[0.08] lg:order-1 lg:h-[560px]"
           >
             <Image
-              src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?auto=format&fit=crop&w=1600&q=80"
+              src="/sklad.jpg"
               alt="Контейнерный терминал — международная логистика Asia Gate"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
+              priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 rounded-2xl border border-white/10 bg-[#0A0A0A]/70 p-5 backdrop-blur-md">
