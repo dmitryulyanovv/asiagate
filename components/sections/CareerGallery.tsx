@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const PHOTOS = [
   {
-    src: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&w=1200&q=80",
+    src: "/homejob.jpg",
     alt: "Оператор поддержки работает за ноутбуком дома",
     caption: "Работайте из дома или в дороге",
     span: "lg:col-span-2 lg:row-span-2",
