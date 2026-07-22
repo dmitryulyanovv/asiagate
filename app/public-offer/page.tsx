@@ -61,9 +61,7 @@ export default function PublicOfferPage() {
             Публичная оферта
           </h1>
           <p className="mt-3 text-sm text-[#666666]">
-            Последнее обновление: [дата]. Документ является типовым шаблоном
-            и требует уточнения реквизитов компании перед публикацией.
-          </p>
+            </p>
 
           <div className="mt-12 flex flex-col gap-9">
             {SECTIONS.map((s) => (
