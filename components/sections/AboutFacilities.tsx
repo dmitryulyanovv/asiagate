@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const PHOTOS = [
   {
-    src: "https://images.unsplash.com/photo-1577416412292-747c6607f055?auto=format&fit=crop&w=1200&q=80",
+    src: "/priemcacestvo.jpg",
     alt: "Штабелирование контейнеров в порту отгрузки",
     caption: "Отгрузка из порта — контроль на каждом этапе",
     span: "lg:col-span-2",
