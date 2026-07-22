@@ -17,7 +17,7 @@ const PHOTOS = [
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1601599963565-b7f49deb2c88?auto=format&fit=crop&w=900&q=80",
+    src: "/inspector.jpg",
     alt: "Инспекция товара перед отгрузкой",
     caption: "Контроль качества на производстве",
     span: "",
