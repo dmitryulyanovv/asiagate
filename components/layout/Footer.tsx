@@ -37,7 +37,7 @@ export default function Footer() {
               {["TG", "WA"].map((s) => (
                 <a
                   key={s}
-                  href="#"
+                  href="https://t.me/asiagate_support_bot"
                   aria-label={s}
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-xs font-semibold text-[#E5E5E5] transition-all duration-300 hover:border-[#00D4A5]/50 hover:text-[#00D4A5]"
                 >
