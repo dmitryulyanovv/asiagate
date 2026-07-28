@@ -31,14 +31,14 @@ export default function SupportBadge() {
             </p>
             <div className="mt-4 flex flex-col gap-2">
               <a
-                href="#"
+                href="https://wa.me/79877332525"
                 className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-white/[0.03] px-3.5 py-2.5 text-xs font-medium text-[#E5E5E5] transition-colors hover:border-[#00D4A5]/30 hover:text-white"
               >
                 <MessageCircle className="h-3.5 w-3.5 text-[#00D4A5]" />
                 WhatsApp
               </a>
               <a
-                href="#"
+                href="https://t.me/asiagate_support_bot"
                 className="flex items-center gap-2.5 rounded-xl border border-white/10 bg-white/[0.03] px-3.5 py-2.5 text-xs font-medium text-[#E5E5E5] transition-colors hover:border-[#00D4A5]/30 hover:text-white"
               >
                 <Send className="h-3.5 w-3.5 text-[#00D4A5]" />

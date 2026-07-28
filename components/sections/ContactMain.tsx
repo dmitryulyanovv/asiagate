@@ -20,8 +20,8 @@ type Status = "idle" | "submitting" | "success";
 const CONTACT_INFO = [
   { icon: Phone, title: "Телефон", value: "+7 495 268-02-02", href: "tel:+74952680202" },
   { icon: Mail, title: "Email", value: "info@asiagate.ru", href: "mailto:info@asiagate.ru" },
-  { icon: MessageCircle, title: "WhatsApp", value: "Написать в WhatsApp", href: "#" },
-  { icon: Send, title: "Telegram", value: "Написать в Telegram", href: "#" },
+  { icon: MessageCircle, title: "WhatsApp", value: "Написать в WhatsApp", href: "https://wa.me/79877332525" },
+  { icon: Send, title: "Telegram", value: "Написать в Telegram", href: "https://t.me/asiagate_support_bot" },
   { icon: MapPin, title: "Офис", value: "Краснопресненская наб., 12, Москва", href: undefined },
   { icon: Clock, title: "Режим работы", value: "Пн–Пт, 9:00–19:00 (МСК)", href: undefined },
 ];

@@ -97,13 +97,13 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Send className="mt-0.5 h-4 w-4 shrink-0 text-[#00D4A5]" />
-                <a href="#" className="text-sm text-[#E5E5E5] hover:text-white">
+                <a href="https://t.me/asiagate_support_bot" className="text-sm text-[#E5E5E5] hover:text-white">
                   Написать в Telegram
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-[#00D4A5]" />
-                <a href="#" className="text-sm text-[#E5E5E5] hover:text-white">
+                <a href="https://wa.me/79877332525" className="text-sm text-[#E5E5E5] hover:text-white">
                   Написать в WhatsApp
                 </a>
               </li>
