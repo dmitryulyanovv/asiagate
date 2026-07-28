@@ -12,7 +12,7 @@ const HIGHLIGHTS = [
   },
   {
     icon: HandCoins,
-    title: "От 370 ₽/час",
+    title: "От 380 ₽/час",
     description: "Почасовая оплата + премии за качество ответов.",
     span: "",
   },
