@@ -1,8 +1,6 @@
 "use client";
-
 import { motion } from "framer-motion";
 import { Search, ClipboardCheck, Ship, PackageCheck } from "lucide-react";
-
 const STEPS = [
   {
     icon: Search,
@@ -33,10 +31,9 @@ const STEPS = [
       "Привозим груз на ваш склад в любой город России. Отслеживание на каждом этапе.",
   },
 ];
-
 export default function HowItWorks() {
   return (
-    <section className="relative bg-[#0A0A0A] py-24 lg:py-32">
+    <section id="process" className="relative bg-[#0A0A0A] py-24 lg:py-32">
       <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -56,7 +53,6 @@ export default function HowItWorks() {
             сделки в личном кабинете.
           </p>
         </motion.div>
-
         <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {STEPS.map((step, i) => (
             <motion.div
