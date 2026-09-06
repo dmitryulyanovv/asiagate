@@ -1,25 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Quote } from "lucide-react";
-
-const CASES = [
-  {
-    metric: "×3 оборот",
-    title: "Сеть магазинов автотоваров",
-    text: "Перевели закупку с посредников на прямые контракты с фабриками — сократили себестоимость товара на 22% и увеличили частоту поставок втрое.",
-  },
-  {
-    metric: "14 дней",
-    title: "Селлер на Wildberries",
-    text: "Настроили сквозной процесс от закупки до поставки на склад FBO — путь от заказа до карточки товара сократился с 45 до 14 дней.",
-  },
-  {
-    metric: "0 срывов",
-    title: "Производитель мебели",
-    text: "За 2 года непрерывных поставок комплектующих — ни одной сорванной партии, несмотря на сезонные пики загрузки портов.",
-  },
-];
 
 const REASONS = [
   {
@@ -79,44 +60,6 @@ export default function AboutWhyUs() {
               <p className="mt-3 text-sm leading-relaxed text-[#ADADAD]">{r.text}</p>
             </motion.div>
           ))}
-        </div>
-
-        {/* Case studies */}
-        <div className="mt-20">
-          <motion.h3
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-80px" }}
-            transition={{ duration: 0.5 }}
-            className="text-center font-display text-2xl font-bold text-white sm:text-3xl"
-          >
-            Истории клиентов
-          </motion.h3>
-
-          <div className="mt-10 grid grid-cols-1 gap-5 lg:grid-cols-3">
-            {CASES.map((c, i) => (
-              <motion.div
-                key={c.title}
-                initial={{ opacity: 0, y: 28 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-60px" }}
-                transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
-                className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-[#161616] p-8"
-              >
-                <Quote className="h-6 w-6 text-[#00D4A5]/40" />
-                <div className="mt-5 font-display text-2xl font-extrabold text-gradient-accent">
-                  {c.metric}
-                </div>
-                <h4 className="mt-2 font-display text-base font-semibold text-white">
-                  {c.title}
-                </h4>
-                <p className="mt-2.5 text-sm leading-relaxed text-[#ADADAD]">{c.text}</p>
-              </motion.div>
-            ))}
-          </div>
-          <p className="mt-6 text-center text-xs text-[#666666]">
-            Обобщённые примеры на основе типичных проектов Asia Gate
-          </p>
         </div>
       </div>
     </section>
