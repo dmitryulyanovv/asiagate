@@ -35,7 +35,7 @@ const VACANCIES = [
       { icon: MapPin, label: "Удалённо" },
       { icon: Briefcase, label: "Без опыта" },
     ],
-    salaryNote: "от 370 ₽/час · оплата почасовая · ГПХ (НПД)",
+    salaryNote: "от 380 ₽/час · оплата почасовая · ГПХ (НПД)",
     responsibilities: [
       { icon: MessageCircle, text: "Консультация клиентов в чатах (Telegram, WhatsApp)" },
       { icon: ClipboardList, text: "Ответы на вопросы по заказам и доставке" },
