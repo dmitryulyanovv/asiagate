@@ -32,7 +32,7 @@ const GUARANTEES = [
 
 export default function ServicesGuarantees() {
   return (
-    <section className="relative bg-[#0A0A0A] py-20 lg:py-28">
+    <section id="guarantees" className="relative bg-[#0A0A0A] py-20 lg:py-28">
       <div className="container">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[0.7fr_1.3fr] lg:gap-16">
           <motion.div
